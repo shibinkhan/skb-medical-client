@@ -1,21 +1,14 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import useHooks from '../../Hooks/useHooks';
 import Doctor from './Doctor';
 
 const FindDoctors = () => {
-    const [doctors, setDoctors] = useState([]);
-
-    useEffect(() => {
-        fetch('Data/doctors.json')
-            .then(res => res.json())
-            .then(data => {
-                console.log(data);
-                setDoctors(data);
-            });
-    }, []);
+    const { doctors } = useHooks();
+    // console.log(doctors);
 
     return (
         <div className="container">
-            <h1 className="mt-2 mb-4">Our Doctors</h1>
+            <h1 className="color mt-4 mb-3">Our Doctors</h1>
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
                 {
                     doctors.map(doctor => <Doctor

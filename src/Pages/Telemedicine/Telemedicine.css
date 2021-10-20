@@ -1,14 +1,23 @@
+.telemedicine {
+    font-size: 20px;
+}
 .img-telemedicine {
     width: 100%;
 }
 .tele-li {
     text-align: left;
+    font-weight: 600;
 }
 .tele-faq-li {
     list-style: none;
     text-align: left;
+    font-weight: 600;
+    font-size: 25px;
 }
 .tele-faq-li:hover {
-    color: #fa6464;
-    
+    color: rgb(241, 77, 77);
+}
+.faq-design {
+    text-decoration: none;
+    color: #000000;
 }

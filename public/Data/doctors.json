@@ -1,6 +1,6 @@
 [
     {
-        "key": 1,
+        "key": 111,
         "name": "Doctor Name: Dr. S M Saadi",
         "img": "https://i.ibb.co/NCc7wCp/1605362492-829-Dr-SMSaadi-245x300.png",
         "speciality": "Medicine & Neurology",
@@ -8,10 +8,21 @@
         "experience": "8 Years",
         "visit": 600,
         "biography": "Dr. S M Saadi has his basic medical education (MBBS) from Sir Salimullah Medical college in 2012. He completed his 1 year of internship in Mitford Hospital, Dhaka He worked as a SHO (senior house officer) in United hospital Ltd from 2014 to 2016. In 2016, he obtained MRCP (UK) from Saint Thomas & Guy’s Hospital (London). Then he worked as a specialist from 2016 to 2018 in United Hospital Ltd. After that, he moved to the UK and worked in Rotherham General Hospital (UK) for 2 years (2018-2020). Dr. S M Saadi actively participated in several national & international conferences at home & abroad dealing with various aspects of Medical Science. He has more than 7 years of experience in Neurology through his sincere efforts, academic activities & honest devotion.",
-        "hours": "9am to 3pm, Friday off"
+        "hours": "9AM to 3PM, Friday OFF"
     },
     {
-        "key": 2,
+        "key": 999,
+        "name": "Dr. Md. Shah Alam Talukder",
+        "img": "https://i.ibb.co/kMmmqZ1/1616385213-370-drshahalam-1-245x300.png",
+        "speciality": "Surgery",
+        "degree": "MBBS (DMC), DCH, MCPS",
+        "experience": "35 Years",
+        "visit": 1500,
+        "biography": "Prof. Dr. Md. Shah Alam Talukder obtained his MBBS from Mymensingh Medical College in the year of 1984. Thereafter, he joined the Government Service as a Government Doctor (BCS 8th Batch). Till 1993, he worked in the areas of General Surgery and Urology and received extensive training in these clinical areas. Subsequently, he got admitted in Master of Surgery (M.S) in Paediatric Surgery and successfully obtained the M.S in the year of 1999 from the University of Dhaka. Later on, he started working as the Assistant Professor of Paediatric Surgery in Dhaka Medical College & Hospital in 1999. Eventually, he was promoted to Associate Professor and Professor in the same Department; and served as the Head of Paediatric Surgery in both Dhaka Medical College & Hospital and Mymensingh Medical College & Hospital. He retired from the Government Service in 2019 as the Professor & Head of Paediatric Surgery of Mymensingh Medical College & Hospital. Thereafter, he joined International Medical College & Hospital where he served as the Head of Paediatric Surgery and Director (Hospital) till January, 2021. Prof. Dr. Md. Shah Alam Talukder is a Fellow of the World Health Organisation (WHO) of Paediatric Re-constructive Surgery; and received extensive trainings on Laparoscopic Surgery and Paediatrics from India and Malaysia.",
+        "hours": "9AM to 3PM, Tuesday OFF"
+    },
+    {
+        "key": 222,
         "name": "Dr. Zaman Ummay Humayra",
         "img": "https://i.ibb.co/r6vdk7H/1605365514-646-Dr-Jaman-Umme-Humayra-1-245x300.png",
         "speciality": "Surgery",
@@ -19,10 +30,10 @@
         "experience": "15 Years",
         "visit": 1500,
         "biography": "Dr. Zaman Ummay Humayra has completed her fellowship on Plastic and Reconstructive surgery from Tokyo Womens’ Medical University, Japan at the age of 34 years and later she completed fellowship on same subject from Bangladesh College of Physicians and Surgeons. She is working as Associate Professor in Japan East West Medical College Hospital in Department of Surgery, Dhaka, Bangladesh. She is life member of ASOMA (Asian Society of Mastology), International Society of aesthetic Plastic Surgeons (ISAPS), Society of Surgeons of Bangladesh (SOSB), and Society of Plastic Surgeons of Bangladesh (SPSB). She has working experience of diabetic patients for 9 years in BIRDEM hospital in Department of Surgery and Hepatobiliary & Pancreatic Surgery department. Her practice specializes in Reconstructive procedures for post-trauma, cancer, congenital anomalies defects and Aesthetic surgical procedures. Dr. Humayra has special interest in comprehensive and oncoplastic breast cancer management. She has been serving as editorial board member of a multiple national journals.",
-        "hours": "10am to 4pm, Saturday off"
+        "hours": "10AM to 4PM, Saturday OFF"
     },
     {
-        "key": 3,
+        "key": 333,
         "name": "Dr. S M Nafeez Imtiaz",
         "img": "https://i.ibb.co/QFvnw1k/1606102315-303-Dr-SMNafeez-Imtiaz-1-1-245x300.png",
         "speciality": "Nephrology",
@@ -30,10 +41,32 @@
         "experience": "10 Years",
         "visit": 700,
         "biography": "Dr. S M Nafeez Imtiaz graduated from Chittagong Medical College in 2011.Then he worked in a reputed private hospital in Dhaka for 05 years. He also took 02 years training in Internal Medicine for FCPS in Shaheed Suhrawardi Medical College, Dhaka. He passed FCPS Part-1 in Medicine in 2014. In 2015 he took Certificate Courses on Diabetology (CCD) from BIRDEM and completed it. Then he was enrolled 05 years long residency MD courses in Nephrology in National Institute of Kidney Diseases & Urology, Dhaka where he received extensive training in clinical nephrology, dialysis and renal transplantation. During his training period he took sub-specialty training in BSMMU, NICVD and NINS&H. He has performed numerous venous catheter insertion and renal biopsy procedure independently so far. He has attended many national and international conferences. He is a member of International Society of Nephrology (ISN) and Bangladesh Renal Association. He has special interest in glomerular diseases and dialysis.",
-        "hours": "9am to 3pm, Sunday off"
+        "hours": "9AM to 3PM, Sunday OFF"
     },
     {
-        "key": 4,
+        "key": 555,
+        "name": "Prof. Dr. Subas Chandra Saha",
+        "img": "https://i.ibb.co/7kTmkvR/1606105275-183-Dr-Subas-Chandra-Saha-1-245x300.png",
+        "speciality": "Paediatrics",
+        "degree": "MBBS (DMC), DCH, MCPS",
+        "experience": "25 Years",
+        "visit": 1000,
+        "biography": "Prof. Dr. Subas Chandra Saha graduated from Dhaka Medical College. He also trained in the department of Paediatrics of Dhaka Medical College Hospital where he acquired knowledge and technique of management of Neonates and other paediatics patients. He is well trained in exchange Transfusions of Neonatal Jaundice and other complicated cases like Meningitis, Encephalitis etc. He was a master trainer of various program like IMCI, ARI and Diarrheal diseases. He was the founder Principal of Shaheed Taz Uddin Ahmad Medical College, Gazipur as well as Head, Paediatric Dept. and worked there for three and half years. Then he transfer to Cox’s Bazar Medical College as Principal as well as Head, Peadiatric Dept. He retired from Govt. service as Professor and Principal, Cox’s Bazar Medical College from 11 Jan 2020.",
+        "hours": "9AM to 3PM, Tuesday OFF"
+    },
+    {
+        "key": 777,
+        "name": "Dr. Fahmida Haque",
+        "img": "https://i.ibb.co/F0G0sQf/1605364687-833-Dr-Fahmida-Hauqe-1-245x300.png",
+        "speciality": "Dermatologist",
+        "degree": "MBBS, MD( Skin & VD)",
+        "experience": "8 Years",
+        "visit": 900,
+        "biography": "Dr. Fahmida Haque, MBBS, MD, is a graduate of SOMC (Sylhet M.A.G Osmani Medical College) in 2006. She took training in Dermatology from BSMMU Skin Sept.(2008-2010) & also in Medicine from Medicine Dept. of the same institution(2011).Completed MD(Skin & VD) from BSMMU in 2016. She took laser & aesthetic training from ILAMED (Institute of Laser & Aesthetic Medicine), from Delhi, India. She has been serving patients with skin problems such as-various types of eczema, allergic manifestations, psoriasis, acne, fungal(ringworm), viral, bacterial skin infections & many others since 2017. Also deals with patients with the wart, skin tags, alopecia etc. through procedures such as: cryotherapy, electrocautery, I/L steroid injections. Now she is working as an Assistant Professor of the Skin & VD Dept. Of JEWNCH.",
+        "hours": "9AM to 3PM, Friday OFF"
+    },
+    {
+        "key": 444,
         "name": "Dr. Mohammad Munir Mosharraf Khan",
         "img": "https://i.ibb.co/yQ0wXyR/1606104355-447-Dr-Mohammad-Munir-Mosharraf-Khan-1-245x300.png",
         "speciality": "Emergency Medicine",
@@ -41,21 +74,21 @@
         "experience": "12 Years",
         "visit": 800,
         "biography": "Dr. Mohammad Munir Mosharraf Khan graduate of Bachelor of Medicine and Surgery (MBBS) from Dhaka University, Bangladesh, 2011. (Honors in Biochemistry). He worked Bashundhara Ad-Din Medical College and Hospital for 3years and Asgar Ali Hospital 4years. He completed his Diploma in Emergency Medicine (DEM) from Royal Liverpool Academy, Broadgreen University Hospital NHS trust, UK, 2019. Diploma in Asthma Management from Open University, UK, 2015. Certified course on Diabetology (CCD) from BIRDEM, Bangladesh, 2014.Certified course on Cardiovascular Diseases (CCCD) from NHF & RI, Bangladesh, 2015. Master of Social Science – Clinical Social Work (MSS-CSW) from Dhaka University, Bangladesh, 2015. Master of Population, Reproductive Health, Gender and Development (MPRHGD) from East West University, Bangladesh,2017. He also completed his Cambridge Advanced Course in Chronic Non-communicable Disease Epidemiology from University of Cambridge, UK, IEDCR, 2018.",
-        "hours": "10am to 4pm, Monday off"
+        "hours": "10AM to 4PM, Monday OFF"
     },
     {
-        "key": 5,
-        "name": "Prof. Dr. Subas Chandra Saha",
-        "img": "https://i.ibb.co/7kTmkvR/1606105275-183-Dr-Subas-Chandra-Saha-1-245x300.png",
-        "speciality": "Paediatrics",
-        "degree": "MBBS (DMC), DCH, MCPS",
+        "key": 888,
+        "name": "Dr. ASM Atiqur Rahman",
+        "img": "https://i.ibb.co/Fn8vz2t/1606110689-744-dratik-1-245x300.png",
+        "speciality": "Venereologist",
+        "degree": "MBBS (Dhaka), DCH (BSMMU)",
         "experience": "20 Years",
-        "visit": 1000,
-        "biography": "Prof. Dr. Subas Chandra Saha graduated from Dhaka Medical College. He also trained in the department of Paediatrics of Dhaka Medical College Hospital where he acquired knowledge and technique of management of Neonates and other paediatics patients. He is well trained in exchange Transfusions of Neonatal Jaundice and other complicated cases like Meningitis, Encephalitis etc. He was a master trainer of various program like IMCI, ARI and Diarrheal diseases. He was the founder Principal of Shaheed Taz Uddin Ahmad Medical College, Gazipur as well as Head, Paediatric Dept. and worked there for three and half years. Then he transfer to Cox’s Bazar Medical College as Principal as well as Head, Peadiatric Dept. He retired from Govt. service as Professor and Principal, Cox’s Bazar Medical College from 11 Jan 2020.",
-        "hours": "9am to 3pm, Tuesday off"
+        "visit": 1500,
+        "biography": "Dr. ASM Atiqur Rahman completed his medical studies of MBBS from Mymensingh Medical College , in 1997. He received post graduate training in Pediatrics Medicine at Dhaka Shishu (Children) Hospital and joined as Resident Medical Officer in 2002. He was Registrar of Pediatrics Medicine and managed over 150000 no. of patient during his 12 years job experience at Dhaka Shishu (Children) Hospital in OPD, IPD including PICU, NICU of Neonatal department. He got post graduate Diploma in Child Health (DCH) from Bangabandhu Sheikh Mujib Medical University (BSMMU) in the year 2006. He was Facilitator of IMCI (Integrated Management of Childhood Illness) of WHO Program in Bangladesh. In last 15 years he gathered vast service experience in Neonatal Care Unit of different renown hospital in Dhaka city and manage over 25000 of neonatal patient successfully.",
+        "hours": "10AM to 4PM, Thursday OFF"
     },
     {
-        "key": 6,
+        "key": 666,
         "name": "Dr. Ismat Jahan",
         "img": "https://i.ibb.co/Yd6RqHV/1606106219-235-Dr-Ismat-Jahan-1-245x300.png",
         "speciality": "Gynae and Obs",
@@ -63,6 +96,6 @@
         "experience": "8 Years",
         "visit": 1200,
         "biography": "Dr. Ismat Jahan, MBBS, FCPS, is a graduate from Ibrahim Medical College in 2009. She took training in Obstetrics & Gynaecology from BIRDEM GENERAL HOSPITAL & also worked over there as an assistant register & Resident medical officer for 5 years from 2012-2017 . She has completed FCPS in 2019. She is also trained in certified course in diabetology & has experience to manage pregnancy with diabetic patients with complications. She can manage both emergency and elective Obs & Gynae cases. Now she is working as a specialist in the Department of Obs & Gynae in JEWMCH. She is trying to promote vaginal delivery, especially painless delivery in JEWMCH.",
-        "hours": "10am to 4pm, Wednesday off"
+        "hours": "10AM to 4PM, Wednesday OFF"
     }
 ]

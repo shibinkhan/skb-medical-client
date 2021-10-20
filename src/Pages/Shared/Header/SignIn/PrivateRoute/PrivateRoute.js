@@ -12,6 +12,7 @@ const PrivateRoute = ({ children, ...rest }) => {
             </div>
         );
     }
+    // Private route
     return (
         <Route
             {...rest}

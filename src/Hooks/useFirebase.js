@@ -5,6 +5,7 @@ import initializeAuthentication from '../Pages/Shared/Header/SignIn/Firebase/fir
 initializeAuthentication();
 
 const useFirebase = () => {
+    // hooks
     const [user, setUser] = useState({});
     const [isLoading, setIsloading] = useState(true);
     const [name, setName] = useState('');
@@ -16,25 +17,22 @@ const useFirebase = () => {
     const auth = getAuth();
     const googleProvider = new GoogleAuthProvider();
 
+    // getting input value
     const handleNameInput = event => {
-        // console.log(event.target.value);
         setName(event.target.value);
     };
     const handleEmailInput = event => {
-        // console.log(event.target.value);
         setEmail(event.target.value);
     };
     const handlePasswordInput = event => {
-        // console.log(event.target.value);
         setPassword(event.target.value);
     };
 
     const handleResistration = event => {
         event.preventDefault();
-        // console.log(email, password);
+
         if (password.length < 6) {
             setError('At least 6 charecter!!!');
-            // console.log(pass.length);
             return;
         };
 
@@ -42,24 +40,25 @@ const useFirebase = () => {
             setError('two uppercase letters!!!');
             return;
         };
+
+        // createUserWithEmailAndPassword
         createUserWithEmailAndPassword(auth, email, password)
-            .then(result => {
-                const user = result.user;
-                console.log(user);
-                setUserName();
-                setError('');
-            })
-            .catch(error => {
-                setError(error.message);
-            });
+        .then(result => {
+            const user = result.user;
+            console.log(user);
+            setUserName();
+            setError('');
+        })
+        .catch(error => {
+            setError(error.message);
+        });
     }
 
     const handleSignIn = event => {
         event.preventDefault();
-        // console.log(email, password);
+
         if (password.length < 6) {
             setError('At least 6 charecter!!!');
-            // console.log(pass.length);
             return;
         };
 
@@ -67,52 +66,38 @@ const useFirebase = () => {
             setError('two uppercase letters!!!');
             return;
         };
+
+        // signInWithEmailAndPassword
         signInWithEmailAndPassword(auth, email, password)
-            .then(userCredential => {
-                const user = userCredential.user;
-                console.log(user);
-                setError('');
-            })
-            .catch(error => {
-                setError(error.message);
-            });
+        .then(userCredential => {
+            const user = userCredential.user;
+            console.log(user);
+            setError('');
+        })
+        .catch(error => {
+            setError(error.message);
+        });
     }
     
+    // updateProfile
     const setUserName = () => {
         updateProfile(auth.currentUser, { displayName: name })
-            .then(() => {
-                // Profile updated!
-            })
+        .then(() => {
+            // Profile updated!
+        })
 
-            .catch(error => {
-                setError(error.message);
-            });
+        .catch(error => {
+            setError(error.message);
+        });
     };
 
-
-
-
-
-
-
-
-
-
-
-
-
+    // googleSignIn
     const googleSignIn = () => {
         setIsloading(true);
-        signInWithPopup(auth, googleProvider)
-            .then((result) => {
-                console.log(result.user);
-                setUser(result.user);
-            })
-            .finally(() => {
-                setIsloading(false);
-            });
+        return signInWithPopup(auth, googleProvider);
     }
 
+    // onAuthStateChanged
     useEffect(() => {
         const unsubscribed = onAuthStateChanged(auth, (user) => {
             if (user) {
@@ -129,17 +114,18 @@ const useFirebase = () => {
     
     const logOut = () => {
         signOut(auth)
-            .then(() => {
-                // Sign-out successful.
-            })
-            .catch((error) => {
-                // An error happened.
-            })
-            .finally(() => {
-                setIsloading(false);
-            });
+        .then(() => {
+            // Sign-out successful.
+        })
+        .catch((error) => {
+            setError(error.message);
+        })
+        .finally(() => {
+            setIsloading(false);
+        });
     };
 
+    // returns
     return {
         user,
         googleSignIn,
@@ -150,8 +136,9 @@ const useFirebase = () => {
         handleEmailInput,
         handlePasswordInput,
         error,
-        handleSignIn
-
+        handleSignIn,
+        setUser,
+        setIsloading
     };
 };
 

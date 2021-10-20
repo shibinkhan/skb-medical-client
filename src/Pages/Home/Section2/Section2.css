@@ -1,0 +1,14 @@
+
+.worker {
+    background-color: antiquewhite;
+    height: 300px;
+    border-radius: 10px;
+}
+.worker-amount {
+    font-size: 75px;
+    color: #fa6464;
+    font-weight: 700;
+}
+.worker-name {
+    font-size: 25px;
+}

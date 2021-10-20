@@ -13,7 +13,7 @@ import AuthProvider from './Context/AuthProvider';
 import PrivateRoute from './Pages/Shared/Header/SignIn/PrivateRoute/PrivateRoute';
 import Telemedicine from './Pages/Telemedicine/Telemedicine';
 import DoctorDetails from './Pages/FindDoctors/DoctorDetails/DoctorDetails';
-import ServiceDetails from './Pages/Home/Services/ServiceDetails';
+import ServiceDetails from './Pages/Home/Services/ServiceDetails/ServiceDetails';
 
 function App() {
   return (

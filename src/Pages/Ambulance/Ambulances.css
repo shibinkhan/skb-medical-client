@@ -1,3 +1,41 @@
-.ambulance-img {
-    max-height: 210px;
+.color {
+    color: #fa6464;
+
+}
+.ambulance {
+    /* text-align: left; */
+}
+.helicopter {
+    font-size: 5vw;
+    font-weight: 700;
+}
+.emergency {
+    font-size: 30px;
+    font-weight: 600;
+}
+.rent {
+    font-weight: 700;
+}
+.ambulance-details {
+    font-size: 20px;
+    font-weight: 600;
+}
+/* responsive */
+@media only screen and (min-width: 1401px) {
+  .helicopter {
+        font-size: 100px;
+    }
+}
+@media only screen and (max-width: 1400px) {
+  .helicopter {
+        font-size: 6vw;
+    }
+}
+@media only screen and (max-width: 700px) {
+  .helicopter {
+        font-size: 10vw;
+    }
+    .emergency {
+        font-size: 25px;
+    }
 }

@@ -1,28 +1,42 @@
 import React from 'react';
 import './DoctorDetails.css';
 import { useParams } from 'react-router';
+import useHooks from '../../../Hooks/useHooks';
+import { NavLink } from 'react-router-dom';
 
 const DoctorDetails = () => {
-    const { doctorId } = useParams();
+    const { doctors } = useHooks();
+    let { doctorId } = useParams();
+    let doctorIdNumbr = parseFloat(doctorId);
+    // console.log(doctorIdNumbr);
+
+    const doctorDetails = doctors.find(doc => doc.key === doctorIdNumbr);
+    // console.log(doctorDetails);
 
     return (
         <div className="container doctor-body mt-5">
-            <div className="row d-flex">
-                <div className="col-12 col-md-6">
-                    <img src="https://i.ibb.co/r6vdk7H/1605365514-646-Dr-Jaman-Umme-Humayra-1-245x300.png" alt="" className="img-fluid" />
+            <div className="container doctor-body mt-5">
+                <div className="row">
+                    <div className="col-12 col-md-6 d-flex align-items-center justify-content-center">
+                        <img src={doctorDetails?.img} alt="" className="doc-img img-fluid" />
+                    </div>
+                    <div className="col-12 col-md-6 doc-details d-flex align-items-center">
+                        {/* doctor details */}
+                        <div className="mt-5">
+                            <h2 className="">Name: {doctorDetails?.name}.</h2>
+                            <h4 className="">Speciality: <span className="fw-bold color">{doctorDetails?.speciality}</span>.</h4>
+                            <h4 className="">Degree: {doctorDetails?.degree}.</h4>
+                            <h4 className="">Experience: {doctorDetails?.experience} Years.</h4>
+                            <h4 className="">Visit: <span className="fw-bold color">{doctorDetails?.visit}</span> Taka Only.</h4>
+                            <h4 className="">Hours: {doctorDetails?.hours}.</h4>
+                            <NavLink to="/"><button className="doc-book button mt-4 py-2 px-5">Call for Booking</button></NavLink>
+                        </div>
+                    </div>
                 </div>
-                <div className="col-12 col-md-6 doc-details">
-                    <h3>Name: Dr. Zaman Ummay Humayra</h3>
-                    <p>Speciality: Surgery</p>
-                    <p>Degree: MBBS, FCPS in Plastic and Reconstructive Surgery</p>
-                    <p>Experience: 15 Years</p>
-                    <p>Visit: 1500 TK</p>
-                    <p>Hours: 10am to 4pm, Saturday off</p>
+                <div>
+                    <h3 className="mt-5 mb-3">Biography</h3>
+                    <p className="biography">{doctorDetails?.biography}</p>
                 </div>
-            </div>
-            <div>
-                <h3>Biography</h3>
-                <p>Dr. Zaman Ummay Humayra has completed her fellowship on Plastic and Reconstructive surgery from Tokyo Womens’ Medical University, Japan at the age of 34 years and later she completed fellowship on same subject from Bangladesh College of Physicians and Surgeons. She is working as Associate Professor in Japan East West Medical College Hospital in Department of Surgery, Dhaka, Bangladesh. She is life member of ASOMA (Asian Society of Mastology), International Society of aesthetic Plastic Surgeons (ISAPS), Society of Surgeons of Bangladesh (SOSB), and Society of Plastic Surgeons of Bangladesh (SPSB). She has working experience of diabetic patients for 9 years in BIRDEM hospital in Department of Surgery and Hepatobiliary & Pancreatic Surgery department. Her practice specializes in Reconstructive procedures for post-trauma, cancer, congenital anomalies defects and Aesthetic surgical procedures. Dr. Humayra has special interest in comprehensive and oncoplastic breast cancer management. She has been serving as editorial board member of a multiple national journals.</p>
             </div>
         </div>
     );

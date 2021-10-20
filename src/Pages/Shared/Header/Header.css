@@ -1,9 +1,23 @@
 .title-img {
     max-width: 40px;
     margin-right: 7px;
-    margin-left: 15px;
+}
+.navbar-brand {
+    font-size: 25px;
+    font-weight: 700;
 }
 .user-img {
     max-width: 40px;
     border-radius: 50%;
+}
+.nav-link {
+    padding: 20px 0px;
+    font-size: 20px;
+}
+.nav-link:hover {
+    background-color: rgb(253, 222, 183);
+}
+.nav-bar-btn {
+    background-color: rgb(253, 225, 189);
+    font-weight: 700;
 }
