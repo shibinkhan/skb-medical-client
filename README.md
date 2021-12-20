@@ -1,4 +1,4 @@
-# SKB Medical
+# SKB Medicals
 
  Website Link: [SKB Medical](https://skb-medical.web.app/).
 
